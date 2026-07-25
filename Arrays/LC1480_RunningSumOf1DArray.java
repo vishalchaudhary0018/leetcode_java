@@ -20,12 +20,24 @@
  * [ ] Day 30
  */
 
-class Solution {
+class  LC1480_RunningSumOf1DArray{
 
-    public int[] runningSum(int[] nums) {
-
-        // Paste your accepted solution here.
-
-        return nums;
+     public int[] runningSum(int[] nums) {
+        int  sum=0;
+    for (int i=0 ;i<nums.length;i++){
+      sum=sum+nums[i];
+      nums[i]=sum;
+      
     }
-}
+     return nums ;
+    }
+    public static void main(String[] args) {
+        LC1480_RunningSumOf1DArray s =new  LC1480_RunningSumOf1DArray();
+      int [] arr=s.runningSum(new int [] {1,2,3,4});
+      for(int x: arr){
+        System.out.println(x);
+      }
+        
+       
+    }
+}  
