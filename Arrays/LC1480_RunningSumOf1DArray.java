@@ -12,12 +12,6 @@
  * Mistake:
  * Add your mistake here after solving.
  *
- * Revision:
- * [ ] Day 1
- * [ ] Day 3
- * [ ] Day 7
- * [ ] Day 15
- * [ ] Day 30
  */
 
 class  LC1480_RunningSumOf1DArray{
