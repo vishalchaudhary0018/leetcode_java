@@ -10,6 +10,9 @@ public class BasicOfString {
       System.out.println(s1);
       System.out.println(s2);
       System.out.println(s3);
+      for(int i=0; i<s1.length();i++){
+         System.out.println(s1.charAt(i));
+      }
 
    }
 }
